@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,35 +8,21 @@
 <meta name="description" content="Cédric Buche — Professor at IMT Atlantique, Director of IRL CNRS CROSSING. Research on artificial intelligence, virtual reality, machine learning and robotics.">
 <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
+
 <div class="topbar">
   <span class="nav-name">Cédric Buche</span>
   <button class="nav-toggle" aria-expanded="false">Menu ☰</button>
 </div>
+
 <div class="shell">
-  <nav class="nav">
-    <a href="index.html" class="nav-name">Cédric Buche</a>
-    <span class="nav-role">AI · VR · Robotics</span>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li>Research</li>
-      <li class="sub"><a href="supervision.html">↳ Supervision</a></li>
-      <li class="sub"><a href="grants.html">↳ Grants</a></li>
-      <li class="sub"><a href="collaboration.html">↳ Collaboration</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-      <li><a href="robobreizh.html">RoboBreizh</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    <li>CV</li> 
-      <li class="sub"><a href="https://web.enib.fr/~buche/data/CV_English.pdf">Full</a> </li>
-       <li class="sub"> <a href="https://web.enib.fr/~buche/data/CV_English_2p.pdf">Short</a> </li>
-      <li class="sub"><a href="https://www.linkedin.com/in/cedric-buche">LinkedIn</a></li>
-    </ul>
-  </nav>
-   
+
+  {% include sidebar.html %}
 
   <main>
     <div class="wrap">
+
       <section class="hero">
         <p class="eyebrow">Personal site</p>
         <h1>Cédric Buche</h1>
@@ -53,36 +40,54 @@
       <section>
         <p class="eyebrow">Positions</p>
         <div class="grid-2">
+
           <div class="card">
             <h3>Current</h3>
             <p>Professor, École nationale supérieure Mines-Télécom (<a href="https://www.imt-atlantique.fr/en">IMT Atlantique</a>), France.</p>
             <p>Director, <a href="https://crossing.cnrs.fr/">IRL CNRS CROSSING</a>, Australia.</p>
           </div>
+
           <div class="card">
             <h3>Honorary</h3>
             <p>Adjunct Professor, Adelaide University, Australia.</p>
             <p>Adjunct Professor, Flinders University, Australia.</p>
           </div>
+
         </div>
       </section>
 
       <section>
         <p class="eyebrow">Degrees</p>
+
         <div class="card">
           <h3>Habilitation Thesis <span class="meta">2012</span></h3>
           <p>"Adaptive behaviors for virtual entities in participatory virtual environments"</p>
-          <p class="lnk"><a href="https://halshs.archives-ouvertes.fr/tel-00672518/document">PDF</a> · <a href="http://www.amazon.fr/Comportements-adaptatifs-dentit%C3%A9-environnement-participatif/dp/3841793835">book edition</a></p>
+          <p class="lnk">
+            <a href="https://halshs.archives-ouvertes.fr/tel-00672518/document">PDF</a>
+            ·
+            <a href="http://www.amazon.fr/Comportements-adaptatifs-dentit%C3%A9-environnement-participatif/dp/3841793835">book edition</a>
+          </p>
         </div>
+
         <div class="card">
           <h3>PhD Thesis <span class="meta">2005</span></h3>
           <p>"Un système tutoriel intelligent et adaptatif pour l'apprentissage de compétences en environnement virtuel de formation"</p>
-          <p class="lnk"><a href="http://tel.archives-ouvertes.fr/docs/00/05/23/77/PDF/rapportThese_CedricBuche.pdf">PDF</a> · <a href="http://www.amazon.fr/Syst%C3%A8me-tutoriel-adaptatif-environnement-virtuel/dp/6131521867/ref=sr_1_2?s=books&ie=UTF8&qid=1336134655&sr=1-2">book edition</a></p>
+          <p class="lnk">
+            <a href="http://tel.archives-ouvertes.fr/docs/00/05/23/77/PDF/rapportThese_CedricBuche.pdf">PDF</a>
+            ·
+            <a href="http://www.amazon.fr/Syst%C3%A8me-tutoriel-adaptatif-environnement-virtuel/dp/6131521867/ref=sr_1_2?s=books&ie=UTF8&qid=1336134655&sr=1-2">book edition</a>
+          </p>
         </div>
+
       </section>
 
     </div>
   </main>
+
 </div>
+
 <script src="assets/main.js"></script>
+
 </body>
 </html>
+```
